@@ -1,2 +1,12 @@
 # Sonarqube docker-compose file
-## Warning, please down start inside /root/ directory
+## Warning, please don't start inside /root/ directory
+
+** How to run **
+```shell
+# docker-compose up -d
+```
+
+** How to tail log **
+```shell
+# docker-compose logs -f
+```
